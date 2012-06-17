@@ -1,0 +1,83 @@
+<?xml version="1.0"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>basbossink.chocolatey.utilities</id>
+    <title>BasBossink.Chocolatey.Utilities</title>
+    <version>1.0</version>
+    <authors>Bas Bossink</authors>
+    <owners>Bas Bossink</owners>
+    <summary>BasBossink.Chocolatey.Utilities - Suite of Utilities</summary>
+    <description>BasBossink.Chocolatey.Utilities includes a number of
+    utilities including vim, emacs, msysgit, posh-git-hg, ruby, ilmerge, python,
+    curl, vlc, putty, paint.net, gitextensions, wget, VirtualCloneDrive,
+    BareTail, AutoHotKey, VirtualBox, RubyDevKit, FoxitReader, Notepad2,
+    dotPeek, GoogleChrome, ILSpy, P4Merge, KeePass, Exuberant CTags,
+    Dependency Walker, WinSCP, javaruntime.x64, Handbrake.WinGUI,
+    LinkShellExtension, SkyDrive, cyg-get, InkScape, easy.install, pngout,
+    merurial, pip,
+    Picasa, R.Project, R.Studio, Graphviz, MarkPad, PowerGUI, IrfanView, launchy, filezilla, 7zip, lockhunter, notepad++, and sysinternals. 
+    || cinst basbossink.chocolatey.utilities will get all of these tools installed ||
+    | Please install with chocolatey (http://nuget.org/List/Packages/chocolatey).</description>
+    <projectUrl>https://github.com/basbossink/basbossink.chocolatey.utilities</projectUrl>
+    <tags>basbossink utilities tools chocolatey</tags>
+    <dependencies>
+      <dependency id='vim' />
+      <dependency id='emacs' version='24.0.94.1' />
+      <dependency id='msysgit' />
+      <dependency id='Posh-GIT-HG' />
+      <dependency id='ruby' />
+      <dependency id='ilmerge' />
+      <dependency id='python' />
+      <dependency id='curl' />
+      <dependency id='vlc' />
+      <dependency id='putty' />
+      <dependency id='paint.net' />
+      <dependency id='gitextensions' />
+      <dependency id='Wget' />
+      <dependency id='VirtualCloneDrive' />
+      <dependency id='baretail' />
+      <dependency id='autohotkey' />
+      <dependency id='virtualbox' />
+      <dependency id='ruby.devkit' />
+      <dependency id='FoxitReader' />
+      <dependency id='notepad2' />
+      <dependency id='dotPeek' />
+      <dependency id='GoogleChrome' />
+      <dependency id='ilspy' />
+      <dependency id='P4Merge' />
+      <dependency id='keepass' />
+      <dependency id='ctags' />
+      <dependency id='dependencywalker' />
+      <dependency id='winscp' />
+      <dependency id='javaruntime.x64' />
+      <dependency id='Handbrake.WinGUI' />
+      <dependency id='LinkShellExtension' />
+      <dependency id='SkyDrive' />
+      <dependency id='cyg-get' />
+      <dependency id='InkScape' />
+      <dependency id='pip' />
+      <dependency id='easy.install' />
+      <dependency id='pngout' />
+      <dependency id='hg' />
+      <dependency id='picasa' />
+      <dependency id='R.Studio' />
+      <dependency id='R.Project' />
+      <dependency id='Graphviz' />
+      <dependency id='markpad' />
+      <dependency id='PowerGUI' />
+      <dependency id='IrfanView' />
+      <dependency id='launchy' />
+      <dependency id='filezilla' />
+      <dependency id='7zip' />
+      <dependency id='lockhunter' />
+      <dependency id='notepadplusplus' />
+      <dependency id='sysinternals' />
+      <dependency id='sliksvn' />
+      <dependency id='Skype' />
+      <dependency id='tortoisehg' />
+      <dependency id='tortoisesvn' />
+      <dependency id='TortoiseGit' />
+      <dependency id='StrawberryPerl' />
+    </dependencies>
+  </metadata>
+</package>
