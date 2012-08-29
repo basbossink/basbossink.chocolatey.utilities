@@ -1,0 +1,68 @@
+<?xml version="1.0"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata>
+    <id>freecommander</id>
+    <title>FreeCommander</title>
+    <version>2009.2.2</version>
+    <authors>Bas Bossink</authors>
+    <owners>Bas Bossink</owners>
+    <summary>FreeCommander is an easy-to-use alternative to the standard windows file manager.</summary>
+    <description>FreeCommander is an easy-to-use alternative to the standard windows file manager. The program helps you with daily work in Windows. Here you can find all the necessary functions to manage your data stock. You can take FreeCommander anywhere - just copy the installation directory on a CD or USB-Stick - and you can even work with this program on a foreign computer.
+ 
+Main features in FreeCommander:
+Dual-panel technology - horizontal and vertical
+Tabbed interface
+Optional tree view for each panel
+Built in file viewer to view files in hex, binary, text or image format
+File viewer inside archives too
+Built in archive handling: ZIP (read, write), CAB (read, write), RAR (read)
+Nested archive handling
+Built in FTP client
+Easy access to system folders, control panel, desktop and start menu
+Copy, move, delete, rename files and folders
+Multi rename tool
+Wipe files
+Create and verify MD5 checksums
+File splitting
+File properties and context menu
+Calculation of folder size
+Folder comparison / synchronization
+Modification of file date and attributes
+Folder / program favorites
+File searching (inside archive too)
+File filters for display
+User defined columns for detailed view
+DOS command line
+Multiple language  support</description>
+    <releaseNotes>Bug: Drag&amp;drop operation fail if FreeCommander window is not active http://www.forum.freecommander.com/viewtopic.php?t=2283
+Bug: Crash when entering '\' into address bar http://www.forum.freecommander.com/viewtopic.php?f=3&amp;t=1867&amp;sid=9ec7d2a046385829b669b3171438b3c6
+You can now control auto complete with the following line in the freecommander.ini:
+[Form]
+PathEditAutoCompleteSource=x
+where
+x=0 - auto complete off
+x=1 - auto complete list from FC
+x=2 - auto complete list from Shell
+ 
+Bug: IP address and computer name doesn't work when entered in address bar
+Bug: Multirename replace function doesn't work on folder names if you want replace the dot char
+Bug: Tooltips for the TABs are mostly not visible
+Bug: Problem with drives mounted to folders http://www.forum.freecommander.com/viewtopic.php?f=3&amp;t=2221
+New: 64 bit context menu will be showed on Windows 64 (XP, Vista, 7)
+You can now control 64 bit context menu with the following line in the freecommander.ini:
+[Form]
+ShowContextMenu64Bit=1
+AutoCloseTimeContextMenu64Bit=10
+ 
+- You can call 64 bit context menu with right click
+- For calling 32 bit context menu use LeftWin+RightClick
+- If you prefer to see for right click always 32 bit context menu: define ShowContextMenu64Bit=0; with LeftWin+RightClick you can call then 64 bit context menu
+    </releaseNotes>
+    <projectUrl>https://github.com/basbossink/basbossink.chocolatey.utilities/</projectUrl>
+    <tags>file-manager filemanager dual-panel</tags>
+    <dependencies></dependencies>
+    <licenseUrl>http://www.freecommander.com/license_en.htm</licenseUrl>
+    <copyright>2004-2007 Marek Jasinski</copyright>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+  </metadata>
+</package>
