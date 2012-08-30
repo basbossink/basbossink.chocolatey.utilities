@@ -3,7 +3,7 @@
   <metadata>
     <id>freecommander</id>
     <title>FreeCommander</title>
-    <version>2009.2.2</version>
+    <version>2009.2.2.1</version>
     <authors>Bas Bossink</authors>
     <owners>Bas Bossink</owners>
     <summary>FreeCommander is an easy-to-use alternative to the standard windows file manager.</summary>
@@ -58,7 +58,7 @@ AutoCloseTimeContextMenu64Bit=10
 - For calling 32 bit context menu use LeftWin+RightClick
 - If you prefer to see for right click always 32 bit context menu: define ShowContextMenu64Bit=0; with LeftWin+RightClick you can call then 64 bit context menu
     </releaseNotes>
-    <projectUrl>https://github.com/basbossink/basbossink.chocolatey.utilities/</projectUrl>
+    <projectUrl>http://www.freecommander.com/</projectUrl>
     <tags>file-manager filemanager dual-panel</tags>
     <dependencies></dependencies>
     <licenseUrl>http://www.freecommander.com/license_en.htm</licenseUrl>
