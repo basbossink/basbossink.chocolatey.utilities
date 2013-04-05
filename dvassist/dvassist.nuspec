@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>dvassist</id>
+    <title>dvassist</title>
+    <version>2.0.1.61</version>
+    <authors>Chris Morris</authors>
+    <owners>Bas Bossink</owners>
+    <summary>Dvorak Assistant is a Windows tray utility that toggles between your normal layout and the Dvorak layout.</summary>
+    <description>Dvorak Assistant is a Windows tray utility that toggles between your normal layout and the Dvorak layout.
+* Windows 95 through Vista.
+* Double-click tray icon or configurable hotkey to toggle between Dvorak &amp; default layout. Great for shared machines.
+* Version 2.0 is no longer restricted to US-Qwerty, DVAssist toggles between whatever your current layout is and Dvorak.
+* Stay-on-top layout window for Dvorak, including some color coding to help a beginner.</description>
+    <projectUrl>http://sourceforge.net/projects/dvassist/</projectUrl>
+    <tags>dvorak keyboard layout switcher</tags>
+    <copyright>BSD</copyright>
+    <licenseUrl>http://tobereplaced.com</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>
+* On older OSes, You must have the Dvorak layout installed before running DVAssist. With 2k (I think), XP and Vista, you're good to go out of the box.
+
+* If Microsoft Outlook is running when DVAssist is used to toggle the layout, Outlook will hang in a tight loop that consumes all available CPU cycles. To get out of it, (and this is weird), right-click on the Outlook entry in the task bar. Not sure why this happens, but it probably has to do with the unorthodox code used to get the word out to all applications that the layout has changed. This doesn't seem to be a problem on old 9x OSes. Note: this problem was logged around 2000 - I'm not sure if it's still a problem with the latest versions of Outlook.
+
+* Win 9x: You must *not* have Dvorak selected as your keyboard layout in Control Panel | Keyboard. Leave it set on QWERTY, then run DVAssist.
+
+* Win 95: Keyboard mappings don't work in DOS windows. Microsoft had a DOS driver for Dvorak layout to fix this - I have no idea if it's still available.
+
+* What if I need support for more than 1 layout in addition to Dvorak? You can try to built-in language bar in modern OS versions. David Bell also wrote to tell me about a MS tool for 2k and up that will allow multiple layouts each with their own hotkey. You can get it here.
+
+2.0.1.61 - 4/12/2007
+* Fixes so upgrading from old versions prior to 2.0 works seamlessly. If Dvorak is active and it detects the prior version had lived on your machine (from old registry entries) it assumes US Qwerty is the original layout. If this isn't the original layout you want to toggle to, simply toggle Dvorak off, shut down DVA, setup your machine to the proper original layout then run DVA again.</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
