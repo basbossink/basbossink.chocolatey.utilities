@@ -6,7 +6,6 @@ avg
 avidemux
 blender
 chicken
-dvassist
 easytag
 encfs
 exact audio copy

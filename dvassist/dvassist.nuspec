@@ -15,7 +15,7 @@
     <projectUrl>http://sourceforge.net/projects/dvassist/</projectUrl>
     <tags>dvorak keyboard layout switcher</tags>
     <copyright>BSD</copyright>
-    <licenseUrl>http://tobereplaced.com</licenseUrl>
+    <licenseUrl>http://dvassist.cvs.sourceforge.net/viewvc/dvassist/dvassist/doc/license.txt?revision=1.2</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <releaseNotes>
 * On older OSes, You must have the Dvorak layout installed before running DVAssist. With 2k (I think), XP and Vista, you're good to go out of the box.
