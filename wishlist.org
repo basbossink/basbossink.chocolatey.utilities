@@ -1,26 +1,18 @@
-Directshow Filters for Ogg Vorbis, Speex, Theora, FLAC, and WebM
-Microsoft security essentials
-ank driver
-audacity
-avg
-avidemux
-blender
-chicken
-easytag
-encfs
+tomighty
+juice
 exact audio copy
+easytag
+Directshow Filters for Ogg Vorbis, Speex, Theora, FLAC, and WebM
 ffdshow
+mediaplayer classic/essential codec pack
 flac codec
+ogg codec
+theora codec
 ghostscript
 ghostview
-juice
-lightscreen
+avg
+avidemux
+chicken
 lua
-mediaplayer classic/essential codec pack
-ogg codec
-quicktime
 spacemonger
-theara codec
 typefaster
-utorrent
-windows live mail
