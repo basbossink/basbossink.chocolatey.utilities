@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>tomighty</id>
+    <title>tomighty</title>
+    <version>0.7.1</version>
+    <authors>Célio Cidral Junior</authors>
+    <owners>Bas Bossink</owners>
+    <summary>Tomighty is a convenient, easy to use, eye candy desktop application that helps you organize and execute your tasks in the Pomodoro™ way.</summary>
+    <description>Tomighty is a tool that helps you perform the Pomodoro Technique®. It's intended to be deadly simple, easy to use and unintrusive.
+
+These are the current features:
+- Configurable times
+- Configurable sounds
+- Pomodoro™ counter
+- Show time on tray
+- Themes
+- Multiple languages</description>
+    <projectUrl>https://github.com/ccidral/tomighty</projectUrl>
+    <tags>Pomodoro timer productivity</tags>
+    <copyright> Apache License 2.0</copyright>
+    <licenseUrl>http://www.apache.org/licenses/LICENSE-2.0</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <dependencies>
+      <dependency id="javaruntime" />
+    </dependencies>    
+    <releaseNotes>
+Bug fixes:
+
+Taiwanese characters rendered incorrectly (issue #40)
+Russian characters rendered incorrectly (issue #42)
+New features:
+
+Taiwanese translation by @haocheng
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
