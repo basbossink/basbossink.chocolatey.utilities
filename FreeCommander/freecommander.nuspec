@@ -1,9 +1,9 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="utf-8"?>
 <package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <metadata>
     <id>freecommander</id>
     <title>FreeCommander</title>
-    <version>2009.2.2.1</version>
+    <version>2014.650</version>
     <authors>Bas Bossink</authors>
     <owners>Bas Bossink</owners>
     <summary>FreeCommander is an easy-to-use alternative to the standard windows file manager.</summary>
@@ -34,35 +34,13 @@ File filters for display
 User defined columns for detailed view
 DOS command line
 Multiple language  support</description>
-    <releaseNotes>Bug: Drag&amp;drop operation fail if FreeCommander window is not active http://www.forum.freecommander.com/viewtopic.php?t=2283
-Bug: Crash when entering '\' into address bar http://www.forum.freecommander.com/viewtopic.php?f=3&amp;t=1867&amp;sid=9ec7d2a046385829b669b3171438b3c6
-You can now control auto complete with the following line in the freecommander.ini:
-[Form]
-PathEditAutoCompleteSource=x
-where
-x=0 - auto complete off
-x=1 - auto complete list from FC
-x=2 - auto complete list from Shell
- 
-Bug: IP address and computer name doesn't work when entered in address bar
-Bug: Multirename replace function doesn't work on folder names if you want replace the dot char
-Bug: Tooltips for the TABs are mostly not visible
-Bug: Problem with drives mounted to folders http://www.forum.freecommander.com/viewtopic.php?f=3&amp;t=2221
-New: 64 bit context menu will be showed on Windows 64 (XP, Vista, 7)
-You can now control 64 bit context menu with the following line in the freecommander.ini:
-[Form]
-ShowContextMenu64Bit=1
-AutoCloseTimeContextMenu64Bit=10
- 
-- You can call 64 bit context menu with right click
-- For calling 32 bit context menu use LeftWin+RightClick
-- If you prefer to see for right click always 32 bit context menu: define ShowContextMenu64Bit=0; with LeftWin+RightClick you can call then 64 bit context menu
+    <releaseNotes>
     </releaseNotes>
     <projectUrl>http://www.freecommander.com/</projectUrl>
     <tags>file-manager filemanager dual-panel</tags>
     <dependencies></dependencies>
     <licenseUrl>http://www.freecommander.com/license_en.htm</licenseUrl>
-    <copyright>2004-2007 Marek Jasinski</copyright>
+    <copyright>2004-2013 Marek Jasinski</copyright>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
   </metadata>
 </package>
