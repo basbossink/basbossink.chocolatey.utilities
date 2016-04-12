@@ -18,7 +18,7 @@ These are the current features:
 - Multiple languages</description>
     <projectUrl>https://github.com/ccidral/tomighty</projectUrl>
     <tags>Pomodoro timer productivity</tags>
-    <copyright> Apache License 2.0</copyright>
+    <copyright>2010-2014</copyright>
     <licenseUrl>http://www.apache.org/licenses/LICENSE-2.0</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <dependencies>
