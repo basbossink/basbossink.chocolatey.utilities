@@ -14,7 +14,7 @@
 * Stay-on-top layout window for Dvorak, including some color coding to help a beginner.</description>
     <projectUrl>http://sourceforge.net/projects/dvassist/</projectUrl>
     <tags>dvorak keyboard layout switcher</tags>
-    <copyright>2007</copyright>
+    <copyright>2007 Chris Morris</copyright>
     <licenseUrl>http://dvassist.cvs.sourceforge.net/viewvc/dvassist/dvassist/doc/license.txt?revision=1.2</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <releaseNotes>
