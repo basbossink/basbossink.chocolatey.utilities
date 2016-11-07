@@ -1,11 +1,19 @@
-﻿$packageName = 'tomighty' # arbitrary name for the package, used in messages
-$url = 'https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/tomighty/tomighty-0.7.1-install.exe' # download url
-$url64 = $url # 64bit URL here or just use the same as $url
-$validExitCodes = @(0) #please insert other valid exit codes here, exit codes for ms http://msdn.microsoft.com/en-us/library/aa368542(VS.85).aspx
-$targetFullName = Join-Path (Split-Path -Parent $MyInvocation.MyCommand.Definition) tomighty-0.7.1-install.exe
-Get-ChocolateyWebFile "$packageName" "$targetFullName" "$url" "$url64"
-$wshell = new-object -comObject WScript.Shell
-$shortCutPath = Join-Path ([Environment]::GetFolderPath(7)) "tomighty.lnk"
-$shortCut = $wshell.CreateShortcut($shortCutPath)
-$shortCut.TargetPath = $targetFullName 
-$shortCut.Save() 
+﻿$packageName = 'tomighty'
+$url = 'https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/tomighty/tomighty-0.7.1-install.exe'
+$url64 = $url
+$validExitCodes = @(0)
+
+$packageArgs = @{
+  packageName   = $packageName
+  fileType      = 'exe'
+  url           = $url
+  url64bit      = $url64
+  silentArgs    = "/S"
+  validExitCodes= @(0)
+  checksum      = '2D547C5BE3420257AF3C0A4FD30BDAD2D8B4044A1F2382C0BE866ECFE12A4283'
+  checksumType  = 'sha256'
+  checksum64    = '2D547C5BE3420257AF3C0A4FD30BDAD2D8B4044A1F2382C0BE866ECFE12A4283'
+  checksumType64= 'sha256'
+}
+
+Install-ChocolateyPackage @packageArgs

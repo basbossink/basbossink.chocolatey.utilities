@@ -1,4 +1,9 @@
-$shortCutPath = Join-Path ([Environment]::GetFolderPath(7)) "tomighty.lnk"
-if(Test-Path $shortCutPath) {
-    Remove-Item $shortCutPath 
+$packageArgs = @{
+    packageName   = 'tomighty'
+    fileType      = 'exe'
+    silentArgs    = "/S"
+    validExitCodes= @(0)
+    File = (Join-Path (Join-Path $env:ProgramFiles "Tomighty") "tomighty_uninstall.exe")
 }
+
+Uninstall-ChocolateyPackage @packageArgs
